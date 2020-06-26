@@ -113,7 +113,6 @@ function getWebResponseAzMaps
         
         $IS_PREVIEW = $isPreview
         $contentType = "application/octet-stream"
-        # $uri = 'https://us.atlas.microsoft.com/mapData/upload?api-version=1.0&dataFormat=zip&subscription-key=ACqLYyXjrvZVROjzHf7b8c-nFQG2ej2v670-APcgLPM'
         $uri = 'https://atlas.microsoft.com/mapData/upload'
         $body = @{}
         $body.Add("dataFormat", $dataFormat)
